@@ -528,13 +528,16 @@ a:hover{
 	
 }
 #features .feature-left{}
-#features .feature-left img {
+#features .feature-left video {
 	height: 368px;
 	width: 100%;
-	margin-top: 30px;
+	margin-top: 1000px;
 }
 #features .feature-right{
 	
+}
+#features .video-container {
+    margin-top: 90px; /* Adjust this value as needed */
 }
 #features .single-right{
 	position:relative;
