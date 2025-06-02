@@ -527,17 +527,24 @@ a:hover{
 #features{
 	
 }
+#features .row {
+    display: flex;
+    align-items: center; /* 垂直居中 */
+}
+
 #features .feature-left{}
 #features .feature-left video {
-	height: 368px;
+	height: auto;
 	width: 100%;
-	margin-top: 1000px;
+	margin-top: 0;
 }
 #features .feature-right{
-	
+	display: flex;
+    flex-direction: column;
+    justify-content: center; /* 垂直居中内容 */
 }
 #features .video-container {
-    margin-top: 90px; /* Adjust this value as needed */
+    margin-top: 0; /* Adjust this value as needed */
 }
 #features .single-right{
 	position:relative;
